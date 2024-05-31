@@ -14,7 +14,9 @@ function App() {
 
   return (
     <>
+      <i className="bi bi-list mobile-nav-toggle d-lg-none"></i>
       <Header />
+      <main id="main">
       <About />
       <Resume />
       <Portfolio />
@@ -22,6 +24,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+      </main>
     </>
   )
 }
