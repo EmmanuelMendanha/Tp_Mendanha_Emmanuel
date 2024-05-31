@@ -8,6 +8,7 @@ import Services from './components/services.jsx';
 import Testimonials from './components/testimonals.jsx';
 import Contact from './components/contact.jsx';
 import Footer from './components/footer.jsx';
+import Skills from './components/skills.jsx';
 
 
 function App() {
@@ -18,13 +19,14 @@ function App() {
       <Header />
       <main id="main">
       <About />
+      <Skills />
       <Resume />
       <Portfolio />
       <Services />
       <Testimonials />
       <Contact />
-      <Footer />
       </main>
+      <Footer />
     </>
   )
 }

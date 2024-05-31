@@ -9,7 +9,6 @@ export default function About() {
                         <h2>About</h2>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
-
                     <div className="row">
                         <div className="col-lg-4">
                             <img src="src/assets/img/profile-img.jpg" className="img-fluid" alt="" />
@@ -32,7 +31,7 @@ export default function About() {
                                         <ul>
                                             <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
                                             <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                                            <li><i className="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
+                                            <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
                                             <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                                         </ul>
                                     </div>
@@ -79,56 +78,6 @@ export default function About() {
                                 <i className="bi bi-award"></i>
                                 <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" className="purecounter"></span>
                                 <p>Awards</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="skills" className="skills section-bg">
-                <div className="container" data-aos="fade-up">
-                    <div className="section-title">
-                        <h2>Skills</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                    </div>
-                    <div className="row skills-content">
-                        <div className="col-lg-6">
-                            <div className="progress">
-                                <span className="skill">HTML <i className="val">100%</i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div className="progress">
-                                <span className="skill">CSS <i className="val">90%</i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div className="progress">
-                                <span className="skill">JavaScript <i className="val">75%</i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="progress">
-                                <span className="skill">PHP <i className="val">80%</i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div className="progress">
-                                <span className="skill">WordPress/CMS <i className="val">90%</i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div className="progress">
-                                <span className="skill">Photoshop <i className="val">55%</i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
                             </div>
                         </div>
                     </div>
